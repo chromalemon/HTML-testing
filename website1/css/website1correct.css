@@ -1,0 +1,24 @@
+img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1300px;
+    height: 300px;
+}
+body{
+    background: linear-gradient(to right, rgb(81, 149, 190), rgb(226, 203, 203));
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+
+
+
+}
+.imperial-script-regular {
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

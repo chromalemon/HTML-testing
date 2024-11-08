@@ -1,0 +1,27 @@
+h1 {
+    font-style: sans-serif;
+    color: green;
+
+
+}
+
+
+body {
+    background: linear-gradient(to right, rgb(105, 236, 123), rgb(14, 63, 16));
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+
+}
+.imperial-script-regular {
+    font-family: "Imperial Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
