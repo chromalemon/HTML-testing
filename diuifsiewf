@@ -1,9 +1,0 @@
-
-if (x!="Donkey"){           
-                 window.location.href = "website1wrong.html";
-
-            }
-            else{
-                window.location.href = "website1submit.html";
-            }
-
