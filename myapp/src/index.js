@@ -6,21 +6,28 @@ const arrayTwo = [4,5,6];
 const arrayCombined = [...arrayOne, ...arrayTwo];
 const [one, two, ...rest] = arrayCombined
 
-const myFirstElement = 
-  <div> 
-  <h1> Hi </h1>
-  <h2> {one} {two} </h2>
-  </div>;
+const myElement = (
+  <table>
+    <tr>
+      <th>Name</th>
+    </tr>
+    <tr>
+      <td>John</td>
+    </tr>
+    <tr>
+      <td>Elsa</td>
+    </tr>
+  </table>
+);
 
-const root1 = ReactDOM.createRoot(document.getElementById("root1"));
+  
 
-root1.render(myFirstElement);
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
-const root2 = ReactDOM.createRoot(document.getElementById("root2"));
+root.render(myElement);
 
-const mySecondElement = 
-  <p> {rest} </p>;
 
-root2.render(mySecondElement);
+
+
 
 
